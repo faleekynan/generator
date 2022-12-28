@@ -26,19 +26,7 @@ document.oncontextmenu = cmenu; function cmenu() { return false; }
         <input name="answer" type="password" placeholder="Введите пароль"/> <button type="submit">Открыть страницу</button>
     </form>
 </div>
-<script>
 
-    var o = document.getElementById('protect-overlay');
-    o.getElementsByTagName('form')[0].onsubmit = function() {
-        if (this.answer.value === 'makedoc') {
-            o.style.display = "none";
-        } else {
-            alert('Неправильный пароль!');
-        }
-        return false;
-    };
-
-</script>
 
   <div class="main">
   
