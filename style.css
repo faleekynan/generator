@@ -22,12 +22,17 @@
 }
 
 .creo{
-	position: absolute;
+	/*position: absolute;*/
     bottom: 0;
     right: 3rem;
-    font-size: 150%;
-	font-family: cursive;
-	margin-block-end: 0;
+        font-size: 150%;
+    font-family: sans-serif;
+    margin-block-end: 0;
+    background: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-right: 7%;
+    margin-top: 10%;
 }
 input[type="radio" i] {
 	width: auto !important;
